@@ -1,0 +1,2 @@
+allow init fingerprintd:binder { transfer call };
+allow init sysfs_devices_system_cpu:dir r_dir_perms;
